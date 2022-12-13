@@ -9,6 +9,7 @@ pipeline{
         }
         stage('stage2') {
             steps {
+                date
                 echo 'second stage-2'
             }
         }
